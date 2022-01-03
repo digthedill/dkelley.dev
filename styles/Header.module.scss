@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+  }
+}
+.title {
+  font-weight: 300;
+}
