@@ -1,0 +1,29 @@
+//Screen Sizes
+
+//320-480
+@mixin mobile {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+
+//481-768
+@mixin tablet {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+//769-1024
+@mixin laptop {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+//1025-1200
+@mixin big-screen {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
